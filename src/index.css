@@ -1,4 +1,10 @@
-body{
-    color: aliceblue;
-    background-color: rgb(255, 77, 77);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
 }

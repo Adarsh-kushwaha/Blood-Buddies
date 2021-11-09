@@ -1,10 +1,12 @@
 import React from 'react'
+import Layout from './Components/Layout/Layout'
+import Routing from './Components/Routing'
 
 const App = () => {
     return (
-        <div>
-            Blood Buddies
-        </div>
+        <Layout>
+          <Routing/>
+        </Layout>
     )
 }
 
