@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import React,{ Fragment, useState } from 'react'
+import React,{ Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import {MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link } from 'react-router-dom'
@@ -10,6 +10,8 @@ const navigation = [
   { name: 'About Us', href: '/', current: false },
   { name: 'Mission', href: '/', current: false },
 ]
+
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -61,7 +63,7 @@ export default function Example() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button className="bg-red-600 px-3 py-1.5 text-white rounded-md font-medium">
-                    Blood Request
+                   <Link to="/login">Blood Request</Link>
                 </button>
                 {/* <button
                   type="button"

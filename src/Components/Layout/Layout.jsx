@@ -5,7 +5,7 @@ const Layout = (props) => {
     return (
         <React.Fragment>
             <MainNavigation/>
-            <main>{props.children}</main>
+            <main className="dark:bg-gray-800 dark:text-gray-100 ">{props.children}</main>
         </React.Fragment>
     )
 }

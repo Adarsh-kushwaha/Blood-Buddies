@@ -2,10 +2,10 @@ import React from 'react'
 
 const Login = () => {
     return (
-        <div className="bg-gradient-to-r from-red-400 to-red-600 min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0" >
+        <div className="bg-gray-50 min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0" >
             <div className="max-w-lg mx-auto">
                 <a href="/">
-                    <h1 className="text-4xl font-bold text-white text-center">Login As Patient</h1>
+                    <h1 className="text-4xl font-bold text-gray-700 text-center">Login As Patient</h1>
                 </a>
             </div>
 

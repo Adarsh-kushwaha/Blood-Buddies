@@ -3,8 +3,10 @@ import Layout from './Components/Layout/Layout'
 import Routing from './Components/Routing'
 
 const App = () => {
+
     return (
-        <Layout>
+        
+        <Layout >
           <Routing/>
         </Layout>
     )
