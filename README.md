@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Blood Donation Management System ( BloodBuddies )
 
-## Available Scripts
+## Project Objective
 
-In the project directory, you can run:
+BloodBuddies is a website in order to help the patients and their attenders who are seeking blood at a particular location. This MERN project is designed in such a way that it keeps detailed information as well as separate information of all the locations where the blood donor is available and what kind of blood is available.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+BloodBuddies does not store blood but it stores the information about the blood donor and blood recipient(patients or attenders), we can say it store the information or database of the blood donors available in the particular location. Because there was a time when some needs bloods in urgent, then this website proved to be his best friend and help the person finding the place nearby him very quickly.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The system is basically an E-information system for getting the database for the blood availability in any particular arena.
 
-### `npm test`
+## Existing System
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In existing Blood Donation Management System, not all users can get access to the information because of the low working of the application or is not able to access any site. Sometimes the information is not updated or available for a particular place. In existing system the security is less and latest updates and uploads are not so frequent.
 
-### `npm run build`
+## Proposed System
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the proposed Blood Donation Management System, in this software once the timer is being arranged, it put up updates and uploads automatically and does not need anyone to do so. Also it is easily available due to its speed and programming part and using it is quite an easy task and well as due to its speed the information which will be available by one or two clicks, will get available in few seconds only.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Modules
 
-### `npm run eject`
+The following integrated website has the given modules:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Administrators:** They have the right to add all the details to the system such as blood groups availability, the quantity in which they are available, locations nearby. Admins can import and export the details about the donors and patients.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Donor:** Donor is the one who donates the blood. The information of all the donors is being maintained. So that in case of emergency when the blood is not available then asking directly to the donor to provide his blood will help the people a lot.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Patients or Attender:** The one who needs blood can give their basic information and contact to blood donor from the donor's list. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Client:** React, Redux, TailwindCSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Server:** Node, Express, Mongoose
 
-### Code Splitting
+**Database:** MongoDB
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Code Editor:** Visual Studio
 
-### Analyzing the Bundle Size
+**API Hosting:** MDBGo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Frontend Hosting:** Heroku
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 About Us
+In this project Frontend developed by Adarsh Kushwaha and Backend developed by Ritik Chourasiya
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributors
 
-### Deployment
+- [@adarsh-kushwaha](https://github.com/adarsh-kushwaha)
+- [@theritikchoure](https://github.com/theritikchoure)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Links
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Demo](https://bloodbuddiees.netlify.app/)
