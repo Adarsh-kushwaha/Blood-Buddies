@@ -1,0 +1,25 @@
+// DONOR Module
+
+[✔] : Donor Registration
+[✔] : Donor Login
+[✔] : Donor Dashboard
+[✔] : Donor Profile Update 
+[✔] : Donor Password Change from Profile
+[✔] : Donor Forget Password
+[✔] : Donor Blood Donated
+[✔] : Donor Donated History (Blood donated to Patients)
+
+// Patients Module
+[✔] : Patients Registration
+[✔] : Patients Login for future
+[✔] : Patient Dashboard
+[✔] : All Donor List && Based on City and BloodGroup
+[✔] : Donor's Profile after Patient Login
+[✔] : Donor Confirm by Patient's Dashboard
+[✔] : Patient Forget Password
+[✔] : Patients Donor History
+[✔] : Comment on Donor's Profile
+
+// Admin Module
+[✔] : Patients List, Get Single Donor, Delete Donor
+[✔] : Donors List, Get Single Donor, Delete Donor
